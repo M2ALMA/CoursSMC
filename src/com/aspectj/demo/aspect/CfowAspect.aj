@@ -9,7 +9,7 @@ public aspect CfowAspect {
       
       
     before() : fooInBar(){  
-        System.out.println("Enter:" + thisJoinPoint);  
+        System.out.println("Enter1 Edit:" + thisJoinPoint);  
     }  
     
 }
